@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinanceFlow - Smart Financial Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+<nav class="navbar">
+    <div class="nav-brand">
+        <div class="logo-circle">
+<a href="index.html"><i class="fas fa-bolt"></i></a>
+        </div>
+        <a href="index.html" style="text-decoration: none; color: var(--dark-color);">FinanceFlow</a>
+    </div>
+    
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="#services">Services</a>
+        <a href="#calculator">Tools</a>
+        <a href="contact.html" class="nav-button">Get Started</a>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <!-- Left Side -->
+            <div class="hero-left">
+                <h1 class="animated-text">
+                    Transform Your Financial Future
+                </h1>
+                <p class="hero-description">Where innovative financial strategies meet your aspirations</p>
+                
+                <div class="cta-container">
+                    <a href="#calculator" class="primary-cta">
+                        <i class="fas fa-calculator"></i>
+                        Try Calculator
+                    </a>
+                    <a href="contact.html" class="secondary-cta">
+                        <i class="fas fa-comments"></i>
+                        Free Consultation
+                    </a>
+                </div>
+
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <div class="stat-circle">
+                            <span class="stat-number"><strong>1000+</strong></span>
+                            <span class="stat-label"><strong>Clients</strong></span>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-circle">
+                            <span class="stat-number"><strong>$50M+</strong></span>
+                            <span class="stat-label"><strong>Assets</strong></span>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-circle">
+                            <span class="stat-number"><strong>15+</strong></span>
+                            <span class="stat-label"><strong>Years</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side -->
+            <div class="hero-right">
+                <div class="finance-dashboard">
+                    <div class="dashboard-header">
+                        <h3>Financial Overview</h3>
+                        <span class="dashboard-date">2024</span>
+                    </div>
+                    <div class="dashboard-chart">
+                        <div class="chart-bars">
+                            <div class="bar-item" style="height: 60%"></div>
+                            <div class="bar-item" style="height: 80%"></div>
+                            <div class="bar-item" style="height: 40%"></div>
+                            <div class="bar-item" style="height: 90%"></div>
+                            <div class="bar-item" style="height: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="dashboard-stats">
+                        <div class="stat-box">
+                            <span class="stat-title">Growth</span>
+                            <span class="stat-value">+25%</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-title">Returns</span>
+                            <span class="stat-value">18.5%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator page start -->
+    <section id="calculator" class="calculator-section">
+        <div class="container">
+            <h2>Loan Calculator</h2>
+            <div class="calculator-grid">
+                <div class="calculator-form">
+                    <div class="input-group">
+                        <label for="loanAmount">Loan Amount ($)</label>
+                        <input type="number" id="loanAmount" placeholder="Enter loan amount">
+                    </div>
+                    <div class="input-group">
+                        <label for="interestRate">Interest Rate (%)</label>
+                        <input type="number" id="interestRate" placeholder="Enter interest rate">
+                    </div>
+                    <div class="input-group">
+                        <label for="loanTerm">Loan Term (Years)</label>
+                        <input type="number" id="loanTerm" placeholder="Enter loan term">
+                    </div>
+                    <button id="calculateBtn" class="calculate-btn">Calculate</button>
+                </div>
+                <div class="calculator-result">
+                    <h3>Monthly Payment</h3>
+                    <div id="monthlyPayment" class="result-amount">$0.00</div>
+                    <div id="resultDetails" class="result-details"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Calculator page end -->
+
+    <!-- Features page start -->
+    <section class="features">
+        <div class="feature-container">
+            <div class="feature-item animate-on-scroll">
+                <i class="fas fa-lock"></i>
+                <h3>Secure & Confidential</h3>
+                <p>Your financial information is always protected</p>
+            </div>
+            <div class="feature-item animate-on-scroll">
+                <i class="fas fa-certificate"></i>
+                <h3>Certified Advisors</h3>
+                <p>Expert team with proven track record</p>
+            </div>
+            <div class="feature-item animate-on-scroll">
+                <i class="fas fa-clock"></i>
+                <h3>24/7 Support</h3>
+                <p>Always here when you need us</p>
+            </div>
+        </div>
+    </section>
+    <!-- Features page end -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <i class="fas fa-bolt"></i>
+                <h3>FinanceFlow</h3>
+                <p>Your trusted partner in financial success</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#calculator">Calculator</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+          
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FinanceFlow. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
